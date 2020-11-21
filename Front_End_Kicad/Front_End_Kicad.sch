@@ -17,239 +17,203 @@ $EndDescr
 $Comp
 L Switch:SW_DIP_x02 SW101
 U 1 1 5FA8C1AD
-P 2100 1450
-F 0 "SW101" H 2100 1817 50  0000 C CNN
-F 1 "SW_DIP_x02" H 2100 1726 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2100 1450 50  0001 C CNN
-F 3 "~" H 2100 1450 50  0001 C CNN
-F 4 "2x DIP switch" H 2100 1450 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS01-254-L-02BE/11310931" H 2100 1450 50  0001 C CNN "part_url"
-	1    2100 1450
+P 2100 1700
+F 0 "SW101" H 2100 2067 50  0000 C CNN
+F 1 "SW_DIP_x02" H 2100 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2100 1700 50  0001 C CNN
+F 3 "~" H 2100 1700 50  0001 C CNN
+F 4 "2x DIP switch" H 2100 1700 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS01-254-L-02BE/11310931" H 2100 1700 50  0001 C CNN "part_url"
+	1    2100 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x02 SW102
 U 1 1 5FA8CAC0
-P 3250 1450
-F 0 "SW102" H 3250 1817 50  0000 C CNN
-F 1 "SW_DIP_x02" H 3250 1726 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 3250 1450 50  0001 C CNN
-F 3 "~" H 3250 1450 50  0001 C CNN
-F 4 "2x DIP switch" H 3250 1450 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS01-254-L-02BE/11310931" H 3250 1450 50  0001 C CNN "part_url"
-	1    3250 1450
+P 3250 1700
+F 0 "SW102" H 3250 2067 50  0000 C CNN
+F 1 "SW_DIP_x02" H 3250 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3250 1700 50  0001 C CNN
+F 3 "~" H 3250 1700 50  0001 C CNN
+F 4 "2x DIP switch" H 3250 1700 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS01-254-L-02BE/11310931" H 3250 1700 50  0001 C CNN "part_url"
+	1    3250 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 1450 1800 1350
+	1800 1700 1800 1600
 Wire Wire Line
-	3550 1450 3550 1350
-Connection ~ 1800 1350
+	3550 1700 3550 1600
+Connection ~ 1800 1600
 $Comp
 L Switch:SW_DIP_x05 SW103
 U 1 1 5FA8E0B8
-P 4050 1350
-F 0 "SW103" H 4050 1817 50  0000 C CNN
-F 1 "SW_DIP_x05" H 4050 1726 50  0000 C CNN
-F 2 "Package_DIP:DIP-10_W7.62mm" H 4050 1350 50  0001 C CNN
-F 3 "~" H 4050 1350 50  0001 C CNN
-F 4 "5x DIP switch" H 4050 1350 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS04-254-1L-05BK/11310878" H 4050 1350 50  0001 C CNN "part_url"
-	1    4050 1350
+P 4050 1600
+F 0 "SW103" H 4050 2067 50  0000 C CNN
+F 1 "SW_DIP_x05" H 4050 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-10_W7.62mm" H 4050 1600 50  0001 C CNN
+F 3 "~" H 4050 1600 50  0001 C CNN
+F 4 "5x DIP switch" H 4050 1600 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS04-254-1L-05BK/11310878" H 4050 1600 50  0001 C CNN "part_url"
+	1    4050 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x05 SW104
 U 1 1 5FA8F1A4
-P 6300 1350
-F 0 "SW104" H 6300 1817 50  0000 C CNN
-F 1 "SW_DIP_x05" H 6300 1726 50  0000 C CNN
-F 2 "Package_DIP:DIP-10_W7.62mm" H 6300 1350 50  0001 C CNN
-F 3 "~" H 6300 1350 50  0001 C CNN
-F 4 "5x DIP switch" H 6300 1350 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS04-254-1L-05BK/11310878" H 6300 1350 50  0001 C CNN "part_url"
-	1    6300 1350
+P 6300 1600
+F 0 "SW104" H 6300 2067 50  0000 C CNN
+F 1 "SW_DIP_x05" H 6300 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-10_W7.62mm" H 6300 1600 50  0001 C CNN
+F 3 "~" H 6300 1600 50  0001 C CNN
+F 4 "5x DIP switch" H 6300 1600 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/en/products/detail/cui-devices/DS04-254-1L-05BK/11310878" H 6300 1600 50  0001 C CNN "part_url"
+	1    6300 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 1150 3750 1250
-Connection ~ 3750 1250
+	3750 1400 3750 1500
+Connection ~ 3750 1500
 Wire Wire Line
-	3750 1250 3750 1350
-Connection ~ 3750 1350
+	3750 1500 3750 1600
+Connection ~ 3750 1600
 Wire Wire Line
-	3750 1350 3750 1450
-Connection ~ 3750 1450
+	3750 1600 3750 1700
+Connection ~ 3750 1700
 Wire Wire Line
-	3750 1450 3750 1550
+	3750 1700 3750 1800
 $Comp
 L Connector:Barrel_Jack J101
 U 1 1 5FA95071
-P 1300 1450
-F 0 "J101" H 1357 1775 50  0000 C CNN
-F 1 "Barrel_Jack" H 1357 1684 50  0000 C CNN
-F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 1350 1410 50  0001 C CNN
-F 3 "~" H 1350 1410 50  0001 C CNN
-F 4 "" H 1300 1450 50  0001 C CNN "part_description"
-F 5 "Probe Connector" H 1300 1450 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1634612-0/1755942" H 1300 1450 50  0001 C CNN "part_url"
-	1    1300 1450
+P 800 1700
+F 0 "J101" H 857 2025 50  0000 C CNN
+F 1 "Barrel_Jack" H 857 1934 50  0000 C CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 850 1660 50  0001 C CNN
+F 3 "~" H 850 1660 50  0001 C CNN
+F 4 "" H 800 1700 50  0001 C CNN "part_description"
+F 5 "Probe Connector" H 800 1700 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1634612-0/1755942" H 800 1700 50  0001 C CNN "part_url"
+	1    800  1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5FA95DF5
-P 1600 1650
-F 0 "#PWR0103" H 1600 1400 50  0001 C CNN
-F 1 "GND" H 1605 1477 50  0000 C CNN
-F 2 "" H 1600 1650 50  0001 C CNN
-F 3 "" H 1600 1650 50  0001 C CNN
-	1    1600 1650
+P 1600 1900
+F 0 "#PWR0103" H 1600 1650 50  0001 C CNN
+F 1 "GND" H 1605 1727 50  0000 C CNN
+F 2 "" H 1600 1900 50  0001 C CNN
+F 3 "" H 1600 1900 50  0001 C CNN
+	1    1600 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 1550 1600 1650
 $Comp
 L Connector:TestPoint TP102
 U 1 1 5FA9A11E
-P 2750 1550
-F 0 "TP102" H 2692 1576 50  0000 R CNN
-F 1 "T_sw2_AC" H 2692 1667 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 2950 1550 50  0001 C CNN
-F 3 "~" H 2950 1550 50  0001 C CNN
-	1    2750 1550
+P 2750 1800
+F 0 "TP102" H 2692 1826 50  0000 R CNN
+F 1 "T_sw2_AC" H 2692 1917 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 2950 1800 50  0001 C CNN
+F 3 "~" H 2950 1800 50  0001 C CNN
+	1    2750 1800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2750 1450 2750 1550
+	2750 1700 2750 1800
 Text Notes 4300 450  0    50   ~ 0
 TEST PADS\nTEXT !!!  especially for selectors\nand test points\n\nClear values used, text for what each area does.\n\nArt for impedance in VS impedance out?
-Text Notes 2100 900  0    50   ~ 0
+Text Notes 2100 1150 0    50   ~ 0
 DC AC Selector\nSwitches clearly named
-Text GLabel 1300 3500 0    50   Input ~ 0
+Text GLabel 3450 4300 0    50   Input ~ 0
 V_OFFSET
 Wire Wire Line
-	6600 1150 6600 1250
-Connection ~ 6600 1250
+	6600 1400 6600 1500
+Connection ~ 6600 1500
 Wire Wire Line
-	6600 1250 6600 1350
-Connection ~ 6600 1350
+	6600 1500 6600 1600
+Connection ~ 6600 1600
 Wire Wire Line
-	6600 1350 6600 1450
-Connection ~ 6600 1450
+	6600 1600 6600 1700
+Connection ~ 6600 1700
 Wire Wire Line
-	6600 1450 6600 1550
+	6600 1700 6600 1800
 $Comp
 L Amplifier_Operational:LMH6551MM U101
 U 1 1 5FB389C0
-P 2250 3500
-F 0 "U101" H 2250 3981 50  0000 C CNN
-F 1 "LMH6551MM" H 2250 3890 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2350 2900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmh6551.pdf" H 3250 3200 50  0001 C CNN
-F 4 "Buffer" H 2250 3500 50  0001 C CNN "part_description"
-F 5 "https://www.digikey.com/en/products/detail/texas-instruments/LMH6551MM-NOPB/755058" H 2250 3500 50  0001 C CNN "part_url"
-	1    2250 3500
+P 4650 4300
+F 0 "U101" H 4650 4781 50  0000 C CNN
+F 1 "LMH6551MM" H 4650 4690 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 4750 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmh6551.pdf" H 5650 4000 50  0001 C CNN
+F 4 "Buffer" H 4650 4300 50  0001 C CNN "part_description"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/LMH6551MM-NOPB/755058" H 4650 4300 50  0001 C CNN "part_url"
+	1    4650 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5FB49FEE
-P 1400 3800
-F 0 "#PWR0102" H 1400 3550 50  0001 C CNN
-F 1 "GND" H 1405 3627 50  0000 C CNN
-F 2 "" H 1400 3800 50  0001 C CNN
-F 3 "" H 1400 3800 50  0001 C CNN
-	1    1400 3800
+P 3700 4600
+F 0 "#PWR0102" H 3700 4350 50  0001 C CNN
+F 1 "GND" H 3705 4427 50  0000 C CNN
+F 2 "" H 3700 4600 50  0001 C CNN
+F 3 "" H 3700 4600 50  0001 C CNN
+	1    3700 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3600 1700 3600
+	4350 4400 4100 4400
 Wire Wire Line
-	1700 3600 1700 4150
+	4100 4400 4100 4950
 Wire Wire Line
-	1700 4150 1850 4150
-$Comp
-L Device:R R104
-U 1 1 5FBC4558
-P 2000 4150
-F 0 "R104" V 1793 4150 50  0000 C CNN
-F 1 "R" V 1884 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1930 4150 50  0001 C CNN
-F 3 "~" H 2000 4150 50  0001 C CNN
-	1    2000 4150
-	0    -1   -1   0   
-$EndComp
+	4100 4950 4250 4950
 Wire Wire Line
-	1950 3400 1700 3400
+	4350 4200 4100 4200
 Wire Wire Line
-	1700 3400 1700 2700
+	4100 4200 4100 3500
 Wire Wire Line
-	1700 2700 1850 2700
+	4100 3500 4250 3500
 $Comp
 L Device:R R103
 U 1 1 5FBCAF17
-P 2000 2700
-F 0 "R103" V 1793 2700 50  0000 C CNN
-F 1 "R" V 1884 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1930 2700 50  0001 C CNN
-F 3 "~" H 2000 2700 50  0001 C CNN
-	1    2000 2700
+P 4400 3500
+F 0 "R103" V 4193 3500 50  0000 C CNN
+F 1 "365" V 4284 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 3500 50  0001 C CNN
+F 3 "~" H 4400 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 4400 3500 50  0001 C CNN "part_url"
+	1    4400 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 2700 2550 2700
+	4550 3500 4950 3500
 Wire Wire Line
-	2550 2700 2550 3300
+	4950 3500 4950 4100
 Wire Wire Line
-	2550 3600 2550 3700
+	4950 4400 4950 4500
 Wire Wire Line
-	2550 4150 2150 4150
-Text GLabel 3400 3300 2    50   Input ~ 0
+	4950 4950 4550 4950
+Text GLabel 6800 4100 2    50   Input ~ 0
 buffer_v+
-Text GLabel 3400 3700 2    50   Input ~ 0
-buffer_v-
-$Comp
-L Device:R R102
-U 1 1 5FC21FA3
-P 1500 4150
-F 0 "R102" V 1293 4150 50  0000 C CNN
-F 1 "R" V 1384 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1430 4150 50  0001 C CNN
-F 3 "~" H 1500 4150 50  0001 C CNN
-	1    1500 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R101
-U 1 1 5FC26A38
-P 1400 3400
-F 0 "R101" V 1193 3400 50  0000 C CNN
-F 1 "R" V 1284 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1330 3400 50  0001 C CNN
-F 3 "~" H 1400 3400 50  0001 C CNN
-	1    1400 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1700 3400 1550 3400
-Connection ~ 1700 3400
+	4100 4200 4050 4200
+Connection ~ 4100 4200
 Wire Wire Line
-	1650 4150 1700 4150
-Connection ~ 1700 4150
+	4050 4950 4100 4950
+Connection ~ 4100 4950
 Wire Wire Line
-	1350 4150 1250 4150
+	3750 4950 3650 4950
 Wire Wire Line
-	1250 4150 1250 4400
+	3650 4950 3650 5200
 $Comp
 L power:GND #PWR0101
 U 1 1 5FC3E4A9
-P 1250 4400
-F 0 "#PWR0101" H 1250 4150 50  0001 C CNN
-F 1 "GND" H 1255 4227 50  0000 C CNN
-F 2 "" H 1250 4400 50  0001 C CNN
-F 3 "" H 1250 4400 50  0001 C CNN
-	1    1250 4400
+P 3650 5200
+F 0 "#PWR0101" H 3650 4950 50  0001 C CNN
+F 1 "GND" H 3655 5027 50  0000 C CNN
+F 2 "" H 3650 5200 50  0001 C CNN
+F 3 "" H 3650 5200 50  0001 C CNN
+	1    3650 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -264,10 +228,10 @@ F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/9306
 	1    2100 5700
 	0    1    1    0   
 $EndComp
-Text GLabel 2150 3950 0    50   Input ~ 0
+Text GLabel 4550 4650 0    50   Input ~ 0
 V_-5v
 Wire Wire Line
-	2150 3800 2150 3950
+	4550 4600 4550 4650
 $Comp
 L power:GND #PWR0104
 U 1 1 5FC8B79B
@@ -318,25 +282,25 @@ F 3 "~" H 9700 1100 50  0001 C CNN
 	1    9700 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 1150 2    50   Input ~ 0
+Text GLabel 4350 1400 2    50   Input ~ 0
 attenuation_1x_in
-Text GLabel 4350 1250 2    50   Input ~ 0
+Text GLabel 4350 1500 2    50   Input ~ 0
 attenuation_2x_in
-Text GLabel 4350 1350 2    50   Input ~ 0
+Text GLabel 4350 1600 2    50   Input ~ 0
 attenuation_5x_in
-Text GLabel 4350 1450 2    50   Input ~ 0
+Text GLabel 4350 1700 2    50   Input ~ 0
 attenuation_10x_in
-Text GLabel 4350 1550 2    50   Input ~ 0
+Text GLabel 4350 1800 2    50   Input ~ 0
 attenuation_20x_in
-Text GLabel 6000 1150 0    50   Input ~ 0
+Text GLabel 6000 1400 0    50   Input ~ 0
 attenuation_1x_out
-Text GLabel 6000 1250 0    50   Input ~ 0
+Text GLabel 6000 1500 0    50   Input ~ 0
 attenuation_2x_out
-Text GLabel 6000 1350 0    50   Input ~ 0
+Text GLabel 6000 1600 0    50   Input ~ 0
 attenuation_5x_out
-Text GLabel 6000 1450 0    50   Input ~ 0
+Text GLabel 6000 1700 0    50   Input ~ 0
 attenuation_10x_out
-Text GLabel 6000 1550 0    50   Input ~ 0
+Text GLabel 6000 1800 0    50   Input ~ 0
 attenuation_20x_out
 Text GLabel 9300 700  0    50   Input ~ 0
 attenuation_1x_in
@@ -722,9 +686,9 @@ F 3 "~" H 10150 6050 50  0001 C CNN
 $EndComp
 Connection ~ 9950 6050
 Wire Wire Line
-	2400 1350 2950 1350
+	2400 1600 2950 1600
 Wire Wire Line
-	1600 1350 1800 1350
+	1100 1600 1300 1600
 Wire Wire Line
 	1900 5700 1900 6100
 Connection ~ 1550 5700
@@ -758,61 +722,51 @@ Wire Wire Line
 Text Notes 1600 5200 0    50   ~ 0
 Buffer bypass
 Wire Wire Line
-	2150 2950 2150 3200
-Text GLabel 2150 2950 0    50   Input ~ 0
+	4550 3800 4550 4000
+Text GLabel 4550 3800 0    50   Input ~ 0
 V_+5v
 $Comp
 L Connector:TestPoint_2Pole TP103
 U 1 1 5FDEEEFE
-P 3050 3500
-F 0 "TP103" V 3096 3412 50  0000 R CNN
-F 1 "buffer_diff" V 3005 3412 50  0000 R CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 3050 3500 50  0001 C CNN
-F 3 "~" H 3050 3500 50  0001 C CNN
-	1    3050 3500
+P 6650 4300
+F 0 "TP103" V 6696 4212 50  0000 R CNN
+F 1 "buffer_diff" V 6605 4212 50  0000 R CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 6650 4300 50  0001 C CNN
+F 3 "~" H 6650 4300 50  0001 C CNN
+	1    6650 4300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2550 3300 2550 3400
-Connection ~ 3050 3300
-Connection ~ 3050 3700
+	4950 4100 4950 4200
+Connection ~ 4950 4100
+Connection ~ 4950 4500
 Wire Wire Line
-	3050 3700 3400 3700
-Wire Wire Line
-	3050 3300 3400 3300
-Connection ~ 2550 3300
-Wire Wire Line
-	2550 3300 3050 3300
-Connection ~ 2550 3700
-Wire Wire Line
-	2550 3700 2550 4150
-Wire Wire Line
-	2550 3700 3050 3700
+	4950 4500 4950 4950
 $Comp
 L Connector:TestPoint TP104
 U 1 1 5FE56DFE
-P 3050 3950
-F 0 "TP104" H 3108 4068 50  0000 L CNN
-F 1 "buff_diff_gnd" H 3108 3977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 3950 50  0001 C CNN
-F 3 "~" H 3250 3950 50  0001 C CNN
-	1    3050 3950
+P 6250 4750
+F 0 "TP104" H 6308 4868 50  0000 L CNN
+F 1 "buff_diff_gnd" H 6308 4777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 6450 4750 50  0001 C CNN
+F 3 "~" H 6450 4750 50  0001 C CNN
+	1    6250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5FE61B49
-P 3050 3950
-F 0 "#PWR0105" H 3050 3700 50  0001 C CNN
-F 1 "GND" H 3055 3777 50  0000 C CNN
-F 2 "" H 3050 3950 50  0001 C CNN
-F 3 "" H 3050 3950 50  0001 C CNN
-	1    3050 3950
+P 6250 4750
+F 0 "#PWR0105" H 6250 4500 50  0001 C CNN
+F 1 "GND" H 6255 4577 50  0000 C CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "" H 6250 4750 50  0001 C CNN
+	1    6250 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 1350 3550 1350
-Connection ~ 3550 1350
+	3750 1600 3650 1600
+Connection ~ 3550 1600
 $Sheet
 S 12700 2950 3850 3000
 U 5FF76298
@@ -822,22 +776,20 @@ $EndSheet
 $Comp
 L Connector:TestPoint TP101
 U 1 1 5FF8BD79
-P 1900 4700
-F 0 "TP101" H 1958 4818 50  0000 L CNN
-F 1 "buff_diff_gnd" H 1958 4727 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 2100 4700 50  0001 C CNN
-F 3 "~" H 2100 4700 50  0001 C CNN
-	1    1900 4700
+P 5200 5250
+F 0 "TP101" H 5258 5368 50  0000 L CNN
+F 1 "buff_diff_gnd" H 5258 5277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 5400 5250 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5200 5250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1700 4650 1700 4150
 Text GLabel 2350 5700 2    50   Input ~ 0
 V_-5v
 Wire Wire Line
-	2400 1450 2450 1450
+	2400 1700 2450 1700
 Wire Wire Line
-	2750 1450 2950 1450
+	2750 1700 2950 1700
 Text Notes 10450 1500 0    50   ~ 0
  	\nR1: 	-150.5 Ω\nR2: 	-37.35 Ω
 Text Notes 10500 2900 0    50   ~ 0
@@ -899,27 +851,27 @@ $EndComp
 $Comp
 L Device:C C107
 U 1 1 5FBA610E
-P 2600 1450
-F 0 "C107" V 2852 1450 50  0000 C CNN
-F 1 "0.1uF" V 2761 1450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2638 1300 50  0001 C CNN
-F 3 "~" H 2600 1450 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 2600 1450 50  0001 C CNN "part_url"
-	1    2600 1450
+P 2600 1700
+F 0 "C107" V 2852 1700 50  0000 C CNN
+F 1 "0.1uF" V 2761 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2638 1550 50  0001 C CNN
+F 3 "~" H 2600 1700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 2600 1700 50  0001 C CNN "part_url"
+	1    2600 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1300 3500 1950 3500
+	3450 4300 3700 4300
 $Comp
 L Device:C C101
 U 1 1 5FBAB2C4
-P 1400 3650
-F 0 "C101" V 1652 3650 50  0000 C CNN
-F 1 "0.1uF" V 1561 3650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1438 3500 50  0001 C CNN
-F 3 "~" H 1400 3650 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1400 3650 50  0001 C CNN "part_url"
-	1    1400 3650
+P 3700 4450
+F 0 "C101" V 3952 4450 50  0000 C CNN
+F 1 "0.1uF" V 3861 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3738 4300 50  0001 C CNN
+F 3 "~" H 3700 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 3700 4450 50  0001 C CNN "part_url"
+	1    3700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -946,4 +898,203 @@ F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/8850122080
 	1    2100 6100
 	0    1    1    0   
 $EndComp
+Connection ~ 3700 4300
+Wire Wire Line
+	3700 4300 4350 4300
+Text GLabel 6750 1600 2    50   Input ~ 0
+signal_attenuated
+Wire Wire Line
+	6600 1600 6750 1600
+Text GLabel 3650 1500 1    50   Input ~ 0
+signal_mode_selected
+Wire Wire Line
+	3650 1500 3650 1600
+Connection ~ 3650 1600
+Wire Wire Line
+	3650 1600 3550 1600
+Text GLabel 1700 1500 1    50   Input ~ 0
+signal_raw
+Wire Wire Line
+	1700 1500 1700 1600
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 1800 1600
+Connection ~ 2750 1700
+Text GLabel 3450 4200 0    50   Input ~ 0
+signal_attenuated
+$Comp
+L Device:R R?
+U 1 1 5FC52AD8
+P 3900 4200
+F 0 "R?" V 3693 4200 50  0000 C CNN
+F 1 "365" V 3784 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 3900 4200 50  0001 C CNN "part_url"
+	1    3900 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC56E92
+P 4400 4950
+F 0 "R?" V 4193 4950 50  0000 C CNN
+F 1 "365" V 4284 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 4950 50  0001 C CNN
+F 3 "~" H 4400 4950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 4400 4950 50  0001 C CNN "part_url"
+	1    4400 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC5AFFE
+P 3900 4950
+F 0 "R?" V 3693 4950 50  0000 C CNN
+F 1 "365" V 3784 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 3900 4950 50  0001 C CNN "part_url"
+	1    3900 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 4200 3450 4200
+Text Notes 5100 3550 0    50   ~ 0
+Av = 1.0
+$Comp
+L Device:R R?
+U 1 1 5FC96E58
+P 5850 4100
+F 0 "R?" V 5643 4100 50  0000 C CNN
+F 1 "60.4" V 5734 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5780 4100 50  0001 C CNN
+F 3 "~" H 5850 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 5850 4100 50  0001 C CNN "part_url"
+	1    5850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC9B2D0
+P 5850 4500
+F 0 "R?" V 5643 4500 50  0000 C CNN
+F 1 "60.4" V 5734 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5780 4500 50  0001 C CNN
+F 3 "~" H 5850 4500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 5850 4500 50  0001 C CNN "part_url"
+	1    5850 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 4500 6100 4500
+Wire Wire Line
+	6000 4100 6100 4100
+$Comp
+L Device:R R?
+U 1 1 5FCB91C5
+P 6100 4300
+F 0 "R?" V 5893 4300 50  0000 C CNN
+F 1 "499" V 5984 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6030 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD499R/2240329" V 6100 4300 50  0001 C CNN "part_url"
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4100 6100 4150
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4450 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	4950 4500 5700 4500
+Wire Wire Line
+	4950 4100 5700 4100
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5FCEC282
+P 5250 4300
+F 0 "TP?" V 5296 4212 50  0000 R CNN
+F 1 "buffer_diff" V 5205 4212 50  0000 R CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 5250 4300 50  0001 C CNN
+F 3 "~" H 5250 4300 50  0001 C CNN
+	1    5250 4300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6650 4100
+Wire Wire Line
+	6650 4100 6800 4100
+Connection ~ 6650 4500
+Wire Wire Line
+	6650 4500 6800 4500
+Wire Wire Line
+	6100 4100 6300 4100
+Wire Wire Line
+	6100 4500 6300 4500
+Text GLabel 6800 4500 2    50   Input ~ 0
+buffer_v-
+$Comp
+L Device:C C?
+U 1 1 5FD03D2C
+P 6300 4300
+F 0 "C?" V 6552 4300 50  0000 C CNN
+F 1 "10pF" V 6461 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6338 4150 50  0001 C CNN
+F 3 "~" H 6300 4300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012008001/5453716" H 6300 4300 50  0001 C CNN "part_url"
+	1    6300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4100 6300 4150
+Connection ~ 6300 4100
+Wire Wire Line
+	6300 4100 6650 4100
+Wire Wire Line
+	6300 4450 6300 4500
+Connection ~ 6300 4500
+Wire Wire Line
+	6300 4500 6650 4500
+Wire Wire Line
+	1100 1800 1300 1800
+Wire Wire Line
+	1600 1800 1600 1900
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FD2429D
+P 1300 800
+AR Path="/5FF76298/5FD2429D" Ref="J?"  Part="1" 
+AR Path="/5FD2429D" Ref="J?"  Part="1" 
+F 0 "J?" V 1362 844 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 1453 844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1300 800 50  0001 C CNN
+F 3 "~" H 1300 800 50  0001 C CNN
+	1    1300 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FD242A3
+P 1300 2100
+AR Path="/5FF76298/5FD242A3" Ref="J?"  Part="1" 
+AR Path="/5FD242A3" Ref="J?"  Part="1" 
+F 0 "J?" V 1362 2144 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 1453 2144 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1300 2100 50  0001 C CNN
+F 3 "~" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1300 1600
+Wire Wire Line
+	1300 1600 1700 1600
+Wire Wire Line
+	1300 1000 1300 1600
+Wire Wire Line
+	1300 1900 1300 1800
+Connection ~ 1300 1800
+Wire Wire Line
+	1300 1800 1600 1800
 $EndSCHEMATC
