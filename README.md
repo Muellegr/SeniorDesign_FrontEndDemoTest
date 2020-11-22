@@ -3,7 +3,7 @@ OSU Senior Design to demonstrate a working, very low quality front end for an os
 The focus of this is to test a basic fully differential op amp and applying a DC offset to the output.  
 * Selectable AC or DC mode
 * 5 selectable attenuation from 1x to 20x
-*       Impedance matched-ish to 50ohm
+* Impedance matchedish to 50ohm
 * Adjustable DC offset for testing from -5v to +5v
 
 
