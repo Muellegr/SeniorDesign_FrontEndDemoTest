@@ -25,7 +25,7 @@ F 1 "MAX871" H 4800 774 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4600 850 50  0001 C CNN
 F 3 "" H 4600 850 50  0001 C CNN
 F 4 "Negative voltage regulator" H 4600 850 50  0001 C CNN "part_description"
-F 5 "max871" H 4600 850 50  0001 C CNN "part_name"
+F 5 "Max871" H 4600 850 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/en/products/detail/maxim-integrated/MAX871EUK-T/1519057" H 4600 850 50  0001 C CNN "part_url"
 	1    4600 850 
 	1    0    0    -1  
@@ -58,6 +58,7 @@ F 1 "10uF" V 5861 1450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5738 1300 50  0001 C CNN
 F 3 "~" H 5700 1450 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 5700 1450 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 5700 1450 50  0001 C CNN "part_name"
 	1    5700 1450
 	-1   0    0    1   
 $EndComp
@@ -96,6 +97,7 @@ F 1 "0.1uF" V 6111 1450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5988 1300 50  0001 C CNN
 F 3 "~" H 5950 1450 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 5950 1450 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 5950 1450 50  0001 C CNN "part_name"
 	1    5950 1450
 	1    0    0    -1  
 $EndComp
@@ -133,6 +135,7 @@ F 2 "Front_End_Kicad:Senior_Design_Front_End" H 6800 5400 50  0001 C CNN
 F 3 "~" H 6800 5400 50  0001 C CNN
 F 4 "DC voltage offset" H 6800 5400 50  0001 C CNN "part_description"
 F 5 "https://www.digikey.com/en/products/detail/tt-electronics-bi/P120PK-Y25BR10K/5957454" H 6800 5400 50  0001 C CNN "part_url"
+F 6 "Potentiometer" H 6800 5400 50  0001 C CNN "part_name"
 	1    6800 5400
 	0    1    1    0   
 $EndComp
@@ -179,6 +182,7 @@ F 1 "10uF" V 6961 6000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6838 5850 50  0001 C CNN
 F 3 "~" H 6800 6000 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 6800 6000 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 6800 6000 50  0001 C CNN "part_name"
 	1    6800 6000
 	1    0    0    -1  
 $EndComp
@@ -230,6 +234,7 @@ F 1 "10uF" V 6361 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6238 3400 50  0001 C CNN
 F 3 "~" H 6200 3550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 6200 3550 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 6200 3550 50  0001 C CNN "part_name"
 	1    6200 3550
 	-1   0    0    1   
 $EndComp
@@ -244,6 +249,7 @@ F 1 "10uF" V 7311 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7188 3400 50  0001 C CNN
 F 3 "~" H 7150 3550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 7150 3550 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 7150 3550 50  0001 C CNN "part_name"
 	1    7150 3550
 	-1   0    0    1   
 $EndComp
@@ -322,6 +328,7 @@ F 1 "SW_DIP_x01" H 4800 3526 50  0000 C CNN
 F 2 "Front_End_Kicad:front_end_power_toggle" H 4800 3350 50  0001 C CNN
 F 3 "~" H 4800 3350 50  0001 C CNN
 F 4 "Power toggle switch" H 4800 3350 50  0001 C CNN "part_description"
+F 5 "Power Switch" H 4800 3350 50  0001 C CNN "part_name"
 	1    4800 3350
 	1    0    0    -1  
 $EndComp
@@ -358,6 +365,7 @@ F 1 "560" V 7634 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7680 3550 50  0001 C CNN
 F 3 "~" H 7750 3550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ1206F560R/8576409" V 7750 3550 50  0001 C CNN "part_url"
+F 5 "Resistor" H 7750 3550 50  0001 C CNN "part_name"
 	1    7750 3550
 	-1   0    0    1   
 $EndComp
@@ -449,6 +457,7 @@ F 1 "1000" V 4384 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4430 5600 50  0001 C CNN
 F 3 "~" H 4500 5600 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337" V 4500 5600 50  0001 C CNN "part_url"
+F 5 "Resistor" H 4500 5600 50  0001 C CNN "part_name"
 	1    4500 5600
 	0    1    1    0   
 $EndComp
@@ -520,6 +529,7 @@ F 1 "1000" V 5484 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5530 5600 50  0001 C CNN
 F 3 "~" H 5600 5600 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337" V 5600 5600 50  0001 C CNN "part_url"
+F 5 "Resistor" H 5600 5600 50  0001 C CNN "part_name"
 	1    5600 5600
 	0    1    1    0   
 $EndComp
@@ -534,6 +544,7 @@ F 1 "1000" V 6484 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6530 1750 50  0001 C CNN
 F 3 "~" H 6600 1750 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337" V 6600 1750 50  0001 C CNN "part_url"
+F 5 "Resistor" H 6600 1750 50  0001 C CNN "part_name"
 	1    6600 1750
 	1    0    0    -1  
 $EndComp
@@ -546,6 +557,7 @@ F 0 "J203" V 4562 2844 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 4653 2844 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 4500 2800 50  0001 C CNN
 F 3 "~" H 4500 2800 50  0001 C CNN
+F 4 "Male Header" H 4500 2800 50  0001 C CNN "part_name"
 	1    4500 2800
 	0    1    1    0   
 $EndComp
@@ -557,6 +569,7 @@ F 0 "J201" V 3812 2844 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 3903 2844 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 3750 2800 50  0001 C CNN
 F 3 "~" H 3750 2800 50  0001 C CNN
+F 4 "Male Header" H 3750 2800 50  0001 C CNN "part_name"
 	1    3750 2800
 	0    1    1    0   
 $EndComp
@@ -611,6 +624,7 @@ F 1 "10uF" V 4211 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4088 1000 50  0001 C CNN
 F 3 "~" H 4050 1150 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 4050 1150 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 4050 1150 50  0001 C CNN "part_name"
 	1    4050 1150
 	-1   0    0    1   
 $EndComp
@@ -686,6 +700,7 @@ F 1 "10uF" V 7511 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7388 3400 50  0001 C CNN
 F 3 "~" H 7350 3550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 7350 3550 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 7350 3550 50  0001 C CNN "part_name"
 	1    7350 3550
 	1    0    0    -1  
 $EndComp

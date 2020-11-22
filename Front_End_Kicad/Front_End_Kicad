@@ -1,3 +1,28 @@
 | Part Purpose |  #  | Value | References | Notes | 
 |:---|:---|:---|:---|:---|
-| [ b ]( c ) | 1 | AD628 | U101 | a |
+| [ Bypass Cap ]( https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691 ) | 8 | 10uF | C101, C104, C201, C203, C205, C206, C207, C208 |  |
+| [ Bypass Cap ]( https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952 ) | 5 | 0.1uF | C102, C105, C106, C107, C204 |  |
+| [ Bypass Cap ]( https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012008001/5453716 ) | 1 | 10pF | C108 |  |
+| [ Zener diode ]( https://www.digikey.com/en/products/detail/vishay-semiconductor-diodes-division/BZG05C11-M3-08/7899109 ) | 1 | D_Zener | D201 |  |
+| [ LED Green ]( https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120GS75000/4489936 ) | 4 | LED | D202, D203, D204, D205 |  |
+| [ Probe Connector ]( https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1634612-0/1755942 ) | 1 | Barrel_Jack | J101 |  |
+| Male Header | 4 | Conn_01x01_Male | J102, J103, J201, J203 |  |
+| [ Power Plug ]( https://www.digikey.com/en/products/detail/tensility-international-corp/54-00167/10459295 ) | 1 | Barrel_Jack | J202 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844 ) | 4 | 365 | R101, R102, R103, R104 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118 ) | 4 | 60.4 | R105, R106, R110, R118 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD499R/2240329 ) | 2 | 499 | R107, R115 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD150R/2240318 ) | 2 | 150 | R108, R116 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD75R0/2240314 ) | 2 | 75 | R109, R117 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-8ENF54R9V/88616 ) | 2 | 54.9 | R111, R119 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/yageo/RC1206FR-0737R4L/728846 ) | 1 | 37.4 | R112 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206JT120R/1757405 ) | 1 | 120 | R113 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD249R/2240322 ) | 1 | 249 | R114 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337 ) | 3 | 1000 | R201, R203, R204 |  |
+| [ Resistor ]( https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ1206F560R/8576409 ) | 1 | 560 | R202 |  |
+| [ Potentiometer ]( https://www.digikey.com/en/products/detail/tt-electronics-bi/P120PK-Y25BR10K/5957454 ) | 1 | R_POT | RV201 |  |
+| [ 2x DIP switch ]( https://www.digikey.com/en/products/detail/cui-devices/DS01-254-L-02BE/11310931 ) | 2 | SW_DIP_x02 | SW101, SW102 |  |
+| [ 5x DIP switch ]( https://www.digikey.com/en/products/detail/cui-devices/DS04-254-1L-05BK/11310878 ) | 2 | SW_DIP_x05 | SW103, SW104 |  |
+| Power Switch | 1 | SW_DIP_x01 | SW201 |  |
+| [ Fully Diff Op Amp ]( https://www.digikey.com/en/products/detail/texas-instruments/LMH6551MM-NOPB/755058 ) | 1 | LMH6551MM | U101 |  |
+| [ Max871 ]( https://www.digikey.com/en/products/detail/maxim-integrated/MAX871EUK-T/1519057 ) | 1 | MAX871 | U201 |  |
+| [ AZ1117IH-5.0TRG1 ]( https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-5-0TRG1/5699673 ) | 1 | AZ1117IH-5.0TRG1 | U202 |  |

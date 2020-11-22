@@ -134,6 +134,7 @@ F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 4750 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmh6551.pdf" H 5650 4000 50  0001 C CNN
 F 4 "Buffer" H 4650 4300 50  0001 C CNN "part_description"
 F 5 "https://www.digikey.com/en/products/detail/texas-instruments/LMH6551MM-NOPB/755058" H 4650 4300 50  0001 C CNN "part_url"
+F 6 "Fully Diff Op Amp" H 4650 4300 50  0001 C CNN "part_name"
 	1    4650 4300
 	1    0    0    -1  
 $EndComp
@@ -169,6 +170,7 @@ F 1 "365" V 4284 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 3500 50  0001 C CNN
 F 3 "~" H 4400 3500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 4400 3500 50  0001 C CNN "part_url"
+F 5 "Resistor" H 4400 3500 50  0001 C CNN "part_name"
 	1    4400 3500
 	0    1    1    0   
 $EndComp
@@ -212,6 +214,7 @@ F 1 "10uF" V 2011 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1888 4000 50  0001 C CNN
 F 3 "~" H 1850 4150 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 1850 4150 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 1850 4150 50  0001 C CNN "part_name"
 	1    1850 4150
 	0    1    1    0   
 $EndComp
@@ -239,6 +242,7 @@ F 1 "10uF" V 1611 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1488 4000 50  0001 C CNN
 F 3 "~" H 1450 4150 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 1450 4150 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 1450 4150 50  0001 C CNN "part_name"
 	1    1450 4150
 	0    1    1    0   
 $EndComp
@@ -297,6 +301,7 @@ F 1 "37.4" V 9584 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 1400 50  0001 C CNN
 F 3 "~" H 9700 1400 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0737R4L/728846" V 9700 1400 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9700 1400 50  0001 C CNN "part_name"
 	1    9700 1400
 	0    1    1    0   
 $EndComp
@@ -309,6 +314,7 @@ F 1 "150" V 9334 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 1650 50  0001 C CNN
 F 3 "~" H 9450 1650 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD150R/2240318" V 9450 1650 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9450 1650 50  0001 C CNN "part_name"
 	1    9450 1650
 	1    0    0    -1  
 $EndComp
@@ -363,6 +369,7 @@ F 1 "120" V 9584 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 2850 50  0001 C CNN
 F 3 "~" H 9700 2850 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206JT120R/1757405" V 9700 2850 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9700 2850 50  0001 C CNN "part_name"
 	1    9700 2850
 	0    1    1    0   
 $EndComp
@@ -375,6 +382,7 @@ F 1 "75" V 9334 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 3100 50  0001 C CNN
 F 3 "~" H 9450 3100 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD75R0/2240314" V 9450 3100 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9450 3100 50  0001 C CNN "part_name"
 	1    9450 3100
 	1    0    0    -1  
 $EndComp
@@ -429,6 +437,7 @@ F 1 "249" V 9584 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 4250 50  0001 C CNN
 F 3 "~" H 9700 4250 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD249R/2240322" V 9700 4250 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9700 4250 50  0001 C CNN "part_name"
 	1    9700 4250
 	0    1    1    0   
 $EndComp
@@ -441,6 +450,7 @@ F 1 "60.4" V 9334 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 4500 50  0001 C CNN
 F 3 "~" H 9450 4500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 9450 4500 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9450 4500 50  0001 C CNN "part_name"
 	1    9450 4500
 	1    0    0    -1  
 $EndComp
@@ -491,6 +501,7 @@ F 1 "499" V 9584 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 5600 50  0001 C CNN
 F 3 "" H 9700 5600 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD499R/2240329" V 9700 5600 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9700 5600 50  0001 C CNN "part_name"
 	1    9700 5600
 	0    1    1    0   
 $EndComp
@@ -503,6 +514,7 @@ F 1 "54.9" V 9334 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 5850 50  0001 C CNN
 F 3 "~" H 9450 5850 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-8ENF54R9V/88616" V 9450 5850 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9450 5850 50  0001 C CNN "part_name"
 	1    9450 5850
 	1    0    0    -1  
 $EndComp
@@ -638,6 +650,7 @@ F 1 "150" V 9834 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9880 1650 50  0001 C CNN
 F 3 "~" H 9950 1650 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD150R/2240318" V 9950 1650 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9950 1650 50  0001 C CNN "part_name"
 	1    9950 1650
 	-1   0    0    1   
 $EndComp
@@ -650,6 +663,7 @@ F 1 "75" V 9834 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9880 3100 50  0001 C CNN
 F 3 "~" H 9950 3100 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD75R0/2240314" V 9950 3100 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9950 3100 50  0001 C CNN "part_name"
 	1    9950 3100
 	-1   0    0    1   
 $EndComp
@@ -662,6 +676,7 @@ F 1 "60.4" V 9834 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9880 4500 50  0001 C CNN
 F 3 "~" H 9950 4500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 9950 4500 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9950 4500 50  0001 C CNN "part_name"
 	1    9950 4500
 	-1   0    0    1   
 $EndComp
@@ -674,6 +689,7 @@ F 1 "54.9" V 9834 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9880 5850 50  0001 C CNN
 F 3 "~" H 9950 5850 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-8ENF54R9V/88616" V 9950 5850 50  0001 C CNN "part_url"
+F 5 "Resistor" H 9950 5850 50  0001 C CNN "part_name"
 	1    9950 5850
 	-1   0    0    1   
 $EndComp
@@ -686,6 +702,7 @@ F 1 "0.1uF" V 2761 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2638 1550 50  0001 C CNN
 F 3 "~" H 2600 1700 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 2600 1700 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 2600 1700 50  0001 C CNN "part_name"
 	1    2600 1700
 	0    1    1    0   
 $EndComp
@@ -700,6 +717,7 @@ F 1 "0.1uF" V 3861 4450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3738 4300 50  0001 C CNN
 F 3 "~" H 3700 4450 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 3700 4450 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 3700 4450 50  0001 C CNN "part_name"
 	1    3700 4450
 	1    0    0    -1  
 $EndComp
@@ -712,6 +730,7 @@ F 1 "0.1uF" V 1611 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1488 4400 50  0001 C CNN
 F 3 "~" H 1450 4550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1450 4550 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 1450 4550 50  0001 C CNN "part_name"
 	1    1450 4550
 	0    1    1    0   
 $EndComp
@@ -724,6 +743,7 @@ F 1 "0.1uF" V 2011 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1888 4400 50  0001 C CNN
 F 3 "~" H 1850 4550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1850 4550 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 1850 4550 50  0001 C CNN "part_name"
 	1    1850 4550
 	0    1    1    0   
 $EndComp
@@ -759,6 +779,7 @@ F 1 "365" V 3784 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4200 50  0001 C CNN
 F 3 "~" H 3900 4200 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 3900 4200 50  0001 C CNN "part_url"
+F 5 "Resistor" H 3900 4200 50  0001 C CNN "part_name"
 	1    3900 4200
 	0    1    1    0   
 $EndComp
@@ -771,6 +792,7 @@ F 1 "365" V 4284 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 4950 50  0001 C CNN
 F 3 "~" H 4400 4950 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 4400 4950 50  0001 C CNN "part_url"
+F 5 "Resistor" H 4400 4950 50  0001 C CNN "part_name"
 	1    4400 4950
 	0    -1   -1   0   
 $EndComp
@@ -783,6 +805,7 @@ F 1 "365" V 3784 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3830 4950 50  0001 C CNN
 F 3 "~" H 3900 4950 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07365RL/728844" V 3900 4950 50  0001 C CNN "part_url"
+F 5 "Resistor" H 3900 4950 50  0001 C CNN "part_name"
 	1    3900 4950
 	0    -1   -1   0   
 $EndComp
@@ -799,6 +822,7 @@ F 1 "60.4" V 5734 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5780 4100 50  0001 C CNN
 F 3 "~" H 5850 4100 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 5850 4100 50  0001 C CNN "part_url"
+F 5 "Resistor" H 5850 4100 50  0001 C CNN "part_name"
 	1    5850 4100
 	0    1    1    0   
 $EndComp
@@ -811,6 +835,7 @@ F 1 "60.4" V 5734 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5780 4500 50  0001 C CNN
 F 3 "~" H 5850 4500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT60R4/1754118" V 5850 4500 50  0001 C CNN "part_url"
+F 5 "Resistor" H 5850 4500 50  0001 C CNN "part_name"
 	1    5850 4500
 	0    -1   -1   0   
 $EndComp
@@ -827,6 +852,7 @@ F 1 "499" V 5984 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6030 4300 50  0001 C CNN
 F 3 "" H 6100 4300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD499R/2240329" V 6100 4300 50  0001 C CNN "part_url"
+F 5 "Resistor" H 6100 4300 50  0001 C CNN "part_name"
 	1    6100 4300
 	1    0    0    -1  
 $EndComp
@@ -855,6 +881,7 @@ F 1 "10pF" V 6461 4300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6338 4150 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012008001/5453716" H 6300 4300 50  0001 C CNN "part_url"
+F 5 "Bypass Cap" H 6300 4300 50  0001 C CNN "part_name"
 	1    6300 4300
 	1    0    0    -1  
 $EndComp
@@ -878,6 +905,7 @@ F 0 "J102" V 1362 844 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 1453 844 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1300 800 50  0001 C CNN
 F 3 "~" H 1300 800 50  0001 C CNN
+F 4 "Male Header" H 1300 800 50  0001 C CNN "part_name"
 	1    1300 800 
 	0    1    1    0   
 $EndComp
@@ -891,6 +919,7 @@ F 0 "J103" V 1362 2144 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 1453 2144 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1300 2100 50  0001 C CNN
 F 3 "~" H 1300 2100 50  0001 C CNN
+F 4 "Male Header" H 1300 2100 50  0001 C CNN "part_name"
 	1    1300 2100
 	0    -1   -1   0   
 $EndComp
