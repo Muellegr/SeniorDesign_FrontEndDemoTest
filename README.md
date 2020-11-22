@@ -5,7 +5,7 @@ The focus of this is to test a basic fully differential op amp and applying a DC
 * 5 selectable attenuation from 1x to 20x
 * Impedance matchedish to 50ohm
 * Adjustable DC offset for testing from -5v to +5v
-
+-------
 
 Due to being used in a presentation-like assignment I put a lot of focus on cleary seperating system blocks at the cost of longer signal traces.  
 4 layers were used for ease of life and some signal quality. The back plane is nearly unused excluding some very minor power routing below the differential op amp.
