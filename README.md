@@ -10,3 +10,6 @@ Schematic and all PCB layers can be found in the Schematics folder.
 * [ Schematic.PDF ]( https://raw.githubusercontent.com/Muellegr/SeniorDesign_FrontEndDemoTest/main/Front_End_Kicad/Schematics/Front_End_Kicad.pdf )
 * [ Signals - Layer 1 ]( https://raw.githubusercontent.com/Muellegr/SeniorDesign_FrontEndDemoTest/main/Front_End_Kicad/Schematics/Front_End_Kicad-F_Cu.pdf )
 * [ GND Plane - Layer 2]( https://raw.githubusercontent.com/Muellegr/SeniorDesign_FrontEndDemoTest/main/Front_End_Kicad/Schematics/Front_End_Kicad-in1_Cu.pdf )
+
+![ neat! ]( https://raw.githubusercontent.com/Muellegr/SeniorDesign_FrontEndDemoTest/main/Front_End_Kicad/Schematics/composite_pcb_small.png )
+![ Look at you! Reading images and stuff! ]( https://raw.githubusercontent.com/Muellegr/SeniorDesign_FrontEndDemoTest/main/Front_End_Kicad/Schematics/pcb_render_small.png )
