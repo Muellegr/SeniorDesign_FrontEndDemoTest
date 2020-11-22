@@ -206,13 +206,13 @@ $EndComp
 $Comp
 L Device:C C104
 U 1 1 5FC5CA77
-P 2100 5700
-F 0 "C104" V 2352 5700 50  0000 C CNN
-F 1 "10uF" V 2261 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2138 5550 50  0001 C CNN
-F 3 "~" H 2100 5700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 2100 5700 50  0001 C CNN "part_url"
-	1    2100 5700
+P 1850 4150
+F 0 "C104" V 2102 4150 50  0000 C CNN
+F 1 "10uF" V 2011 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1888 4000 50  0001 C CNN
+F 3 "~" H 1850 4150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 1850 4150 50  0001 C CNN "part_url"
+	1    1850 4150
 	0    1    1    0   
 $EndComp
 Text GLabel 4550 4650 0    50   Input ~ 0
@@ -222,42 +222,30 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5FC8B79B
-P 1900 6200
-F 0 "#PWR0102" H 1900 5950 50  0001 C CNN
-F 1 "GND" H 1905 6027 50  0000 C CNN
-F 2 "" H 1900 6200 50  0001 C CNN
-F 3 "" H 1900 6200 50  0001 C CNN
-	1    1900 6200
+P 1650 4650
+F 0 "#PWR0102" H 1650 4400 50  0001 C CNN
+F 1 "GND" H 1655 4477 50  0000 C CNN
+F 2 "" H 1650 4650 50  0001 C CNN
+F 3 "" H 1650 4650 50  0001 C CNN
+	1    1650 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C101
 U 1 1 5FC8B7A8
-P 1700 5700
-F 0 "C101" V 1952 5700 50  0000 C CNN
-F 1 "10uF" V 1861 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1738 5550 50  0001 C CNN
-F 3 "~" H 1700 5700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 1700 5700 50  0001 C CNN "part_url"
-	1    1700 5700
+P 1450 4150
+F 0 "C101" V 1702 4150 50  0000 C CNN
+F 1 "10uF" V 1611 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1488 4000 50  0001 C CNN
+F 3 "~" H 1450 4150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EMK316BJ106KL-T/930691" H 1450 4150 50  0001 C CNN "part_url"
+	1    1450 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 6100 1550 5700
-Text GLabel 1450 5700 0    50   Input ~ 0
+	1300 4550 1300 4150
+Text GLabel 1200 4150 0    50   Input ~ 0
 V_+5v
-$Comp
-L Device:C C103
-U 1 1 5FCA3C5A
-P 1900 5350
-F 0 "C103" V 2152 5350 50  0000 C CNN
-F 1 "0.1uF" V 2061 5350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 5200 50  0001 C CNN
-F 3 "~" H 1900 5350 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1900 5350 50  0001 C CNN "part_url"
-	1    1900 5350
-	0    1    1    0   
-$EndComp
 Text GLabel 4350 1400 2    50   Input ~ 0
 attenuation_1x_in
 Text GLabel 4350 1500 2    50   Input ~ 0
@@ -367,18 +355,6 @@ Wire Wire Line
 	9450 1100 9300 1100
 Connection ~ 9450 1100
 $Comp
-L Connector:TestPoint TP116
-U 1 1 5FC58742
-P 9950 1850
-F 0 "TP116" H 9892 1876 50  0000 R CNN
-F 1 "attn_2x_gnd" H 9892 1967 50  0000 R CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 10150 1850 50  0001 C CNN
-F 3 "~" H 10150 1850 50  0001 C CNN
-	1    9950 1850
-	-1   0    0    1   
-$EndComp
-Connection ~ 9950 1850
-$Comp
 L Device:R R113
 U 1 1 5FC5AC6B
 P 9700 2850
@@ -445,18 +421,6 @@ Wire Wire Line
 	9450 2550 9300 2550
 Connection ~ 9450 2550
 $Comp
-L Connector:TestPoint TP118
-U 1 1 5FC5AC97
-P 9950 3300
-F 0 "TP118" H 9892 3326 50  0000 R CNN
-F 1 "attn_5x_gnd" H 9892 3417 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 10150 3300 50  0001 C CNN
-F 3 "~" H 10150 3300 50  0001 C CNN
-	1    9950 3300
-	-1   0    0    1   
-$EndComp
-Connection ~ 9950 3300
-$Comp
 L Device:R R114
 U 1 1 5FC781CE
 P 9700 4250
@@ -518,18 +482,6 @@ Wire Wire Line
 	9950 3950 10100 3950
 Wire Wire Line
 	9450 3950 9300 3950
-$Comp
-L Connector:TestPoint TP120
-U 1 1 5FC781FA
-P 9950 4700
-F 0 "TP120" H 9892 4726 50  0000 R CNN
-F 1 "attn_10x_gnd" H 9892 4817 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 10150 4700 50  0001 C CNN
-F 3 "~" H 10150 4700 50  0001 C CNN
-	1    9950 4700
-	-1   0    0    1   
-$EndComp
-Connection ~ 9950 4700
 $Comp
 L Device:R R115
 U 1 1 5FC8CA2A
@@ -594,54 +546,32 @@ Wire Wire Line
 	9950 5300 10100 5300
 Wire Wire Line
 	9450 5300 9300 5300
-$Comp
-L Connector:TestPoint TP122
-U 1 1 5FC8CA56
-P 9950 6050
-F 0 "TP122" H 9892 6076 50  0000 R CNN
-F 1 "attn_20x_gnd" H 9892 6167 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 10150 6050 50  0001 C CNN
-F 3 "~" H 10150 6050 50  0001 C CNN
-	1    9950 6050
-	-1   0    0    1   
-$EndComp
-Connection ~ 9950 6050
 Wire Wire Line
 	2400 1600 2950 1600
 Wire Wire Line
 	1100 1600 1300 1600
 Wire Wire Line
-	1900 5700 1900 6100
-Connection ~ 1550 5700
+	1650 4150 1650 4550
+Connection ~ 1300 4150
 Wire Wire Line
-	1450 5700 1550 5700
+	1200 4150 1300 4150
 Wire Wire Line
-	1850 6100 1900 6100
-Connection ~ 1900 6100
+	1600 4550 1650 4550
+Connection ~ 1650 4550
 Wire Wire Line
-	1900 6100 1900 6200
+	1650 4550 1650 4650
 Wire Wire Line
-	1950 6100 1900 6100
+	1700 4550 1650 4550
 Wire Wire Line
-	1950 5700 1900 5700
+	1700 4150 1650 4150
 Wire Wire Line
-	1850 5700 1900 5700
-Connection ~ 1900 5700
+	1600 4150 1650 4150
+Connection ~ 1650 4150
 Wire Wire Line
-	2250 5700 2350 5700
-Connection ~ 2250 5700
+	2000 4150 2100 4150
+Connection ~ 2000 4150
 Wire Wire Line
-	2250 5700 2250 6100
-Wire Wire Line
-	1750 5350 1550 5350
-Wire Wire Line
-	1550 5350 1550 5700
-Wire Wire Line
-	2050 5350 2250 5350
-Wire Wire Line
-	2250 5350 2250 5700
-Text Notes 1600 5200 0    50   ~ 0
-Buffer bypass
+	2000 4150 2000 4550
 Wire Wire Line
 	4550 3800 4550 4000
 Text GLabel 4550 3800 0    50   Input ~ 0
@@ -683,7 +613,7 @@ U 5FF76298
 F0 "Power Side" 50
 F1 "Front_End_Power.sch" 50
 $EndSheet
-Text GLabel 2350 5700 2    50   Input ~ 0
+Text GLabel 2100 4150 2    50   Input ~ 0
 V_-5v
 Wire Wire Line
 	2400 1700 2450 1700
@@ -776,25 +706,25 @@ $EndComp
 $Comp
 L Device:C C102
 U 1 1 5FBB0AA3
-P 1700 6100
-F 0 "C102" V 1952 6100 50  0000 C CNN
-F 1 "0.1uF" V 1861 6100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1738 5950 50  0001 C CNN
-F 3 "~" H 1700 6100 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1700 6100 50  0001 C CNN "part_url"
-	1    1700 6100
+P 1450 4550
+F 0 "C102" V 1702 4550 50  0000 C CNN
+F 1 "0.1uF" V 1611 4550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1488 4400 50  0001 C CNN
+F 3 "~" H 1450 4550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1450 4550 50  0001 C CNN "part_url"
+	1    1450 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C105
 U 1 1 5FBB44B5
-P 2100 6100
-F 0 "C105" V 2352 6100 50  0000 C CNN
-F 1 "0.1uF" V 2261 6100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2138 5950 50  0001 C CNN
-F 3 "~" H 2100 6100 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 2100 6100 50  0001 C CNN "part_url"
-	1    2100 6100
+P 1850 4550
+F 0 "C105" V 2102 4550 50  0000 C CNN
+F 1 "0.1uF" V 2011 4550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1888 4400 50  0001 C CNN
+F 3 "~" H 1850 4550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012208030/5453952" H 1850 4550 50  0001 C CNN "part_url"
+	1    1850 4550
 	0    1    1    0   
 $EndComp
 Connection ~ 3700 4300
@@ -1230,4 +1160,17 @@ Wire Wire Line
 Connection ~ 7000 1600
 Wire Wire Line
 	7000 1600 7300 1600
+$Comp
+L Connector:TestPoint TP116
+U 1 1 5FF2EE3F
+P 9950 1850
+F 0 "TP116" H 9892 1876 50  0000 R CNN
+F 1 "attn_2x_gnd" H 9892 1967 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 10150 1850 50  0001 C CNN
+F 3 "~" H 10150 1850 50  0001 C CNN
+	1    9950 1850
+	-1   0    0    1   
+$EndComp
+Text Notes 1350 3650 0    50   ~ 0
+Buffer bypass
 $EndSCHEMATC
